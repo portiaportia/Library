@@ -16,6 +16,10 @@ public class Items {
 		return items;
 	}
 
+	public boolean addItem(String itemName, String itemDescription){
+		return true;
+	}
+
 	public boolean haveItem(String itemName) {
 		return true;
 	}

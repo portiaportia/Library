@@ -7,6 +7,18 @@ public class Library {
 		items = Items.getInstance();
 		users = Users.getInstance();
 	}
+
+	public User login(String userName, String password){
+		return null;
+	}
+
+	public boolean createAccount(String userName, String password) {
+		return true;
+	}
+
+	public boolean createItem(String title, String description){
+		return true;
+	}
 	
 	//Returns true if item is found, and false otherwise
 	public boolean findItem(String itemName) {
